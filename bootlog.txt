@@ -1,0 +1,456 @@
+FLB running @ 24000000Hz; Flash Drivers:  [NAND] 
+Manufacturer : Hynix 
+Device       : NAND 128MB 3,3V 8-bit 
+Reserved     : 0x00 
+Page Size    : 2048 Bytes 1 
+Block Size   : 128 Kilobytes 
+Spare Bytes  : 64 Bytes
+
+page addr=0x20000, fixpage result=6
+Starting Bootloader Level 1
+page addr=0x20000, fixpage result=6
+Starting Application
+
+
+Copyright 2000-2005 by BridgeCo AG, Duebendorf, Switzerland
+
+           Type  Start       End         Size
+    Heap cached  0x60bcca50  0x61f00000  0x013335b0/20133296
+Heap non-cached  0x71f00000  0x72000000  0x00100000/1048576
+    UMR0 cached  0x00403f80  0x0040fa00  0x0000ba80/47744
+UMR0 non-cached  0x00500000  0x0050fa00  0x0000fa00/64000
+
+Stacks     Start       End        Size
+timer      0x00403b80  0x00403f80 0x400/1024
+supervisor 0x004035fc  0x004039fc 0x400/1024
+user       0x004039fc  0x00403b7c 0x180/384
+irq        0x0040349c  0x004035fc 0x160/352
+fiq        0x60b65288  0x60b652a8 0x20/32
+undef      0x60b65208  0x60b65288 0x80/128
+
+module: SuluModule... [255C[10D[ [32mok[0m ]
+module: SuluGPIO... [255C[10D[ [32mok[0m ]
+module: SuluUART0... [255C[10D[ [32mok[0m ]
+module: SuluUART1... [255C[10D[ [32mok[0m ]
+module: SuluSPI0... [255C[10D[ [32mok[0m ]
+module: SuluNFH... [255C[10D[ [32mok[0m ]
+module: SysDevSCIEmu... [255C[10D[ [32mok[0m ]
+module: FlashDrivers...  [NAND] 
+Manufacturer : Hynix 
+Device       : NAND 128MB 3,3V 8-bit 
+Reserved     : 0x00 
+Signature    : 1d00f1ad 
+Page Size    : 2048 Bytes 1 
+Block Size   : 128 Kilobytes 
+Spare Bytes  : 64 Bytes
+Fast timings : prescaler 0
+ [RAM FLASH] 
+[255C[10D[ [32mok[0m ]
+module: cneModule... CnE configuration missmatches hardware configuration!
+ CnE from FlashFound a 128kbyte blocked flash
+Persistent Parameter at 0x20000, size: 0x20000
+[255C[10D[ [32mok[0m ]
+module: cnePersistentModule... [255C[10D[ [32mok[0m ]
+module: cneRestoreModule... [255C[10D[ [32mok[0m ]
+module: systemDataService... [255C[10D[ [32mok[0m ]
+module: cneSystemDataMgr... [255C[10D[ [32mok[0m ]
+module: AudioHWService... [255C[10D[ [32mok[0m ]
+module: HALCompatibilityService... [255C[10D[ [32mok[0m ]
+module: HALCompatibilityService... [255C[10D[ [32mok[0m ]
+module: IpodDetectServiceModule... [255C[10D[ [32mok[0m ]
+module: EVMCE2_HAL... 
+****** BTI_CNERESTORE_OTIMIZATION
+****** BTI_CNERESTORE_OTIMIZATION
+********* PERS_FWUP value=0
+Instantiating HAL .....[255C[10D[ [32mok[0m ]
+module: IPodAuthCoprocessorV2Service... [255C[10D[ [32mok[0m ]
+module: IRInputService... [255C[10D[ [32mok[0m ]
+module: GDBService... [255C[10D[ [32mok[0m ]
+module: RTPTimeServiceModule... [255C[10D[ [32mok[0m ]
+module: StreamDeviceManager... [255C[10D[ [32mok[0m ]
+module: StreamDeviceObserver... [255C[10D[ [32mok[0m ]
+module: IsoStreaming... [255C[10D[ [32mok[0m ]
+module: SuluStreamDeviceAV... [255C[10D[ [32mok[0m ]
+module: SuluStreamDeviceARM... [255C[10D[ [32mok[0m ]
+module: StreamDeviceUSB... [255C[10D[ [32mok[0m ]
+module: UserResourceRetrieverService... [255C[10D[ [32mok[0m ]
+module: ResourceManagerService... Audio driver successfully created
+... ok
+m_ACPOnHost is 0 
+IPodAuthCoprocessorV2Impl: ACP NOT on Host 
+
+
+IRInputServiceTXInit()n
+IRInputService_TX::IRInputService_TX()
+*pData=0xe54354, iSize = 0x3d34
+*pData=0xe00080, iSize = 0xd43c
+ResourceManagerImpl.cpp(1048)
+ERROR: ResourceManager::load[255C[10D[ [32mok[0m ]
+module: NetworkingSystemDataModule... [255C[10D[ [32mok[0m ]
+module: NetworkDriverSystemDataModule... [255C[10D[ [32mok[0m ]
+module: networking... ResourcePages(): No Resource Page FFS (label=0x00000000)!!!
+prep_ifaces() for iface 0: MAC-Address is: XX:XX:XX:XX:XX:XX
+MACB Ethernet MAC interface
+Attaching device at address 0xe0017000
+Resetting mac to default state
+Probing PHY
+PHY detected on address 5 (status reg 0x7809)
+prep_ifaces() for iface 0: MAC-Address is: XX:XX:XX:XX:XX:XX
+preped 2 interfaces, initializing...
+wireless IF:    WlanCfg   Interface 0
+initialized sysDataProxy on path sds://static/Networking/DrvStatus/WlanCfg/Mac
+MacAddressCopier::updateObserver
+copying MAC address to persistent parameters
+set PersParam MAC XX:XX:XX:XX:XX:XX
+
+dhc_setup:: Enabled val[255C[10D[ [32mok[0m ]
+module: Iperf... [255C[10D[ [32mok[0m ]
+module: WpaSupplicantSulu... [255C[10D[ [32mok[0m ]
+module: SuluUSBBusDriver... [255C[10D[ [32mok[0m ]
+module: RDMFileSystemService... [255C[10D[ [32mok[0m ]
+module: USBStack... [255C[10D[ [32mok[0m ]
+module: USBHostController... [255C[10D[ [32mok[0m ]
+module: UPnPModuleService... [255C[10D[ [32mok[0m ]
+module: ViewModeObserver...  = 0
+ndhc_setup: Error updatin[255C[10D[ [32mok[0m ]
+module: DefaultModeObserver... [255C[10D[ [32mok[0m ]
+module: FlacStreamProcess... [255C[10D[ [32mok[0m ]
+module: MP3StreamProcess... [255C[10D[ [32mok[0m ]
+module: WaveStreamProcess... [255C[10D[ [32mok[0m ]
+module: AIFFStreamProcess... [255C[10D[ [32mok[0m ]
+module: WmaStreamProcess... [255C[10D[ [32mok[0m ]
+module: VorbisStreamProcess... [255C[10D[ [32mok[0m ]
+module: ShoutcastStreamProcess... [255C[10D[ [32mok[0m ]
+module: WMSClientProcess... [255C[10D[ [32mok[0m ]
+module: AACStreamProcess... [255C[10D[ [32mok[0m ]
+module: LpcmStreamProcess... [255C[10D[ [32mok[0m ]
+module: AvInDecStreamProcess... [255C[10D[ [32mok[0m ]
+module: IPodUSBInStreamProcess... [255C[10D[ [32mok[0m ]
+module: RDMFSStreamProcess... [255C[10D[ [32mok[0m ]
+module: DeFramerStreamProcess... [255C[10D[ [32mok[0m ]
+module: BCOAirTunesNapReceiver... [255C[10D[ [32mok[0m ]
+module: BCOAirtunesStreamProcess... [255C[10D[ [32mok[0m ]
+module: SpotifyReceiver... [255C[10D[ [32mok[0m ]
+module: SpotifyStreamProcess... [255C[10D[ [32mok[0m ]
+module: USBAdaptionLayer... [255C[10D[ [32mok[0m ]
+module: CommunicationSettingsService... [255C[10D[ [32mok[0m ]
+module: TCPPortTunnelingService... [255C[10D[ [32mok[0m ]
+module: guardDevice... [255C[10D[ [32mok[0m ]
+module: NapIsoStreamOutputAv... [255C[10D[ [32mok[0m ]
+module: TelnetShellService... [255C[10D[ [32mok[0m ]
+[255C[10D[ [32mok[0m ]
+module: RemoteAddressSpaceModule... [255C[10D[ [32mok[0m ]
+module: SuluSPITest... [255C[10D[ [32mok[0m ]
+module: flashBurn... [255C[10D[ [32mok[0m ]
+module: modPersParamCommand... [255C[10D[ [32mok[0m ]
+module: PSMService... PSM Object created 
+[255C[10D[ [32mok[0m ]
+module: IPodAuthShell... [255C[10D[ [32mok[0m ]
+module: JBConnect... [255C[10D[ [32mok[0m ]
+module: Pio_SystemInfoServicePreProcess... PSMService creation
+The Module JBConnectInit is initialized
+JBConnectInit: Enabled val = 0
+JBConnectInit: GETTING AppendMac value - 1
+JBConnectInit: GETTING JBCSSID - Pioneer Setup:4E3E63
+JBConnectInit: GETTING JBDSSID - WirelessDirect0:4E3E63
+#### JBConnectInit is initialized successfully ####
+[255C[10D[ [32mok[0m ]
+module: Pio_UsbPowerDriver... [255C[10D[ [32mok[0m ]
+module: ScreenControl... [255C[10D[ [32mok[0m ]
+module: MainController... [255C[10D[ [32mok[0m ]
+module: BrowseModeControl_Pio... [255C[10D[ [32mok[0m ]
+module: PlayModeControl_Pio... [255C[10D[ [32mok[0m ]
+module: DefaultModeControl_Pio... [255C[10D[ [32mok[0m ]
+module: SystemModeControl_Pio... [255C[10D[ [32mok[0m ]
+module: ViewModeControl_Pio... [255C[10D[ [32mok[0m ]
+module: MediaResourceManagerService... *** Pio_UsbPowerDriver::userint[255C[10D[ [32mok[0m ]
+module: mediaResourceManagerTestCommands... [255C[10D[ [32mok[0m ]
+module: Commanders... [255C[10D[ [32mok[0m ]
+module: webserverModule... [255C[10D[ [32mok[0m ]
+module: RDMFileSystemTest... [255C[10D[ [32mok[0m ]
+module: FATFileSystem... [255C[10D[ [32mok[0m ]
+module: PicturePlayerModule... [255C[10D[ [32mok[0m ]
+module: iPodSimplePlayModeControl_Pio... [255C[10D[ [32mok[0m ]
+module: MemoryBlobService... [255C[10D[ [32mok[0m ]
+module: GenaService... [255C[10D[ [32mok[0m ]
+module: SsdpClient... [255C[10D[ [32mok[0m ]
+module: UpnpControl... errupt
+Dummy
+
+ MediaResource[255C[10D[ [32mok[0m ]
+module: DrmServiceManager... [255C[10D[ [32mok[0m ]
+module: KeyCheck... [255C[10D[ [32mok[0m ]
+module: ConvModeChangerService... Manager() iVersion = 2 
+ 
+ MediaResourceManager: iNoOfLanguages = 10 
+Adding command FileResourceTestCmd
+INFO: CREATING JpegInMemory
+Could NOT get FrameBuffer Service !!!!
+[255C[10D[ [32mok[0m ]
+module: RadioNativeService... [255C[10D[ [32mok[0m ]
+module: ClosedCaptionMetainfoService... [255C[10D[ [32mok[0m ]
+module: NapModuleNoIsoStreamOutput... Web Pages Loaded Succesfully
+spdif+lineout Intf 
+AirplayOutputQueueSize set as 512
+sdsShell ready for commands. Try "help" for help.
+sds://>NapIsoStreamOutputAv::InOutSamplingFreqNotification() Could NOT retreive the AVRPlayer service
+setupAudio:674:audio driver not available
+setupAudio:674:audio driver not available
+notifyStatusChanged: eNapCoreStateStopped: NCStopped::entry
+DecoderDataHandler(DecoderB[255C[10D[ [32mok[0m ]
+module: NapModuleTest... [255C[10D[ [32mok[0m ]
+module: RDMFSFileReaderService... [255C[10D[ [32mok[0m ]
+module: RDMFSContentBrowser... [255C[10D[ [32mok[0m ]
+module: webCfgBaseModule... [255C[10D[ [32mok[0m ]
+module: ParascreenService... aseDataHandler.cpp[83]):TRACE WARNING:NapDecoderProcessor: Could NOT retrieve FlacStreamEncoder
+RTPProfileProcessorMP3
+RTPServer::initialize() Error: Could not get WHATimeServer service interface
++++++++++++ ParascreenService LCD ENABLED +++++++++++++ 
+Could NOT get TV Service !!!!
+
+ ++++++++ INSIDE ParascreenBcoFB:[255C[10D[ [32mok[0m ]
+module: ViewGlue... :getDimension LCDDDD++++++++++++
+ModelTree::lookupNumber: asset "ScreenSaver/ScreenSaverStatus" doesn't exist or isn't an static-typed number
+ModelTree::lookupNumber: asset "status/play_state_id" doesn't exist or isn't an static-typed number
+ModelTree::lookupBool: asset "browse/items/color_0" doesn't exist or isn't an static-typed bool
+ModelTree::lookupBool: asset "browse/items/color_1" doesn't exist or isn't an static-typed bool
+ModelTree::lookupBool: asset "browse/items/color_2" doesn't exist or isn't an static-typed bool
+ModelTree::lookupBool: asset "browse/items/color_3" doesn't exist or isn't an static-typed bool
+ModelTree::lookupBool: asset "browse/items/color_4" doesn't exist or isn't an static-typed bool
+ModelTree::lookupNumber: asset "message/softkb_focus" doesn't exist or isn't an static-typed number
+ModelTree::lookupNumber: asset "message/softkb_cur" doesn't exist or isn't an static-typed number
+ModelTree::lookupNumber: asset "message/softkb_editcur" doesn't exist or isn't an static-typed number
+ModelTree::lookupNumber: asset "message/softkb_charcur" doesn't exist or isn't an static-typed number
+ModelTree::lookupBool: asset "message/softkb_chgchar" doesn't exist or isn't an static-typed bool
+ModelTree::lookupBool: asset "message/softkb_enable" doesn't exist or isn't an static-typed bool
+ModelTree::lookupNumber: asset "message/softkb_currentcharmode" doesn't exist or isn't an static-typed number
+ModelTree::lookupNumber: asset "message/softkb_height" doesn't exist or isn't an static-typed number
+ModelTree::lookupString: asset "message/softkb_chargroupcharacter_0" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_chargroupcharacter_1" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_chargroupcharacter_2" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_chargroupcharacter_3" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_chargroupcharacter_4" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_chargroupcharacter_5" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_chargroupcharacter_6" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_chargroupcharacter_7" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_chargroupcharacter_8" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_chargroupcharacter_9" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_chargroupcharacter_10" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_chargroupcharacter_11" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_chargroupcharacter_12" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_chargroupcharacter_13" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_chargroupcharacter_14" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_chargroupcharacter_15" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_chargroupcharacter_16" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_chargroupcharacter_17" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_chargroupcharacter_18" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_chargroupcharacter_19" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_chargroupcharacter_20" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_chargroupcharacter_21" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_chargroupcharacter_22" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_chargroupcharacter_23" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_chargroupcharacter_24" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_chargroupcharacter_25" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_chargroupcharacter_26" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_chargroupcharacter_27" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_chargroupcharacter_28" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_chargroupcharacter_29" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_chargroupcharacter_30" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_chargroupcharacter_31" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_chargroupcharacter_32" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_chargroupcharacter_33" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_chargroupcharacter_34" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_chargroupcharacter_35" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_chargroupcharacter_36" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_chargroupcharacter_37" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_chargroupcharacter_38" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_chargroupcharacter_39" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_charmodename_0" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_charmodename_1" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_charmodename_2" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_charmodename_3" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_charmodename_4" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_editkeyname_0" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_editkeyname_1" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_editkeyname_2" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_editkeyname_3" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "message/softkb_editkeyname_4" doesn't exist or isn't an static-typed string
+ModelTree::lookupString: asset "PioStatic/SoftKeyboard" doesn't exist or isn't an static-typed string
+
+------------------------------------------------------------
+[255C[10D[ [32mok[0m ]
+module: ResourceManagerShell... [255C[10D[ [32mok[0m ]
+module: RemoteCommandBufferService... [255C[10D[ [32mok[0m ]
+module: SPIRegisterTransportLayer... [255C[10D[ [32mok[0m ]
+module: WlanService... [255C[10D[ [32mok[0m ]
+module: AVRPlayerService... Initializing Wr2_AppControl
+------------------------------------------------------------
+LibraryVersion:      APP:JB21.0-Ref/HW:JukeBlox2 (Release)
+LibraryBuildVersion: 9655 (2013-09-28  14:51:16)
+LibraryCVSTag:       JB2Generic32MB-3_8_0-9655_ER
+------------------------------------------------------------
+
+ ImageDownloadServiceImpl addHandler
+ ImageDownloadServiceImpl Handler added
+Entry point for the SPIRegisterTransportLayer
+AVRPlayerServiceImpl::AVRPlayerServiceImpl() Could NOT retreive the DRC_Command service
+NewSelectedWirelessProfile::NewSelectedWirelessProfile ERROR: invalid encryption type value: WPAWPA2PSK
+[255C[10D[ [32mok[0m ]
+module: Pio_SystemInfoService... [255C[10D[ [32mok[0m ]
+module: Pio_ControlAppServiceModule... [255C[10D[ [32mok[0m ]
+module: FileTransferService... [255C[10D[ [32mok[0m ]
+module: RemoteRegCtrldFileTransferService... [255C[10D[ [32mok[0m ]
+module: FwUpdateOverRR... [255C[10D[ [32mok[0m ]
+module: SpotifyService...  PFUOverRRImpl::firmwareDownloadUSB() Can't obtain FwUpdateService
+ENTER SpotifyServiceImpl.cpp:SpotifyServiceInit
+
+
+Spo[255C[10D[ [32mok[0m ]
+module: WaveRadio2AppControl... [255C[10D[ [32mok[0m ]
+module: DrcHostTunnelingModule... [255C[10D[ [32mok[0m ]
+module: HostCommandRemoteRegModule... [255C[10D[ [32mok[0m ]
+module: UPnPDevice... tifyService constructor .........
+Spotify NEW_DEVICE_NAME: pioneer
+
+ Spotify  outside else NEW_DEVICE_NAME: pioneer
+
+######## current name Device length is zero ###### 
+
+
+SpotifyService init .........
+
+
+EXIT SpotifyServiceImpl.cpp:SpotifyServiceInit
+
+	 !!! WHA DEVIC[255C[10D[ [32mok[0m ]
+module: WebServerRegisterHandler... [255C[10D[ [32mok[0m ]
+module: SpiNtpModule... [255C[10D[ [32mok[0m ]
+module: CardeaSecurityLevelModule... [255C[10D[ [32mok[0m ]
+module: SpiAppCtrlModule... [255C[10D[ [32mok[0m ]
+module: SpiPresetsModule... E START INIT !!! 
+
+""(WhaAdapterCb.cpp[47]):TRACE ERROR:Could NOT retreive the WholeHomeAudioService Module service!
+NEW_DEVICE_NAME: pioneer
+
+outside else NEW_DEVICE_NAME: pioneer
+upnpCpService.cpp(286) Could NOT retrieve the Cardea S[255C[10D[ [32mok[0m ]
+module: BCOAirTunesService... [255C[10D[ [32mok[0m ]
+module: CE_Application... ervice !!!!
+SpiPresets::SpiPresets() Error could NOT retreive the Presets Browser
+
+**  AirTunesSetTimelineOffset  extracted  4000
+**  AirTunesSetTimelineOffset  set sucessfull   4000MainController Name is MainController
+--->Creating ModeControl=PlayModeControl_Pio
+--->Creating ModeControl=BrowseModeControl_Pio
+ MenuContentBrowser::printvector 
+--->Creating ModeControl=ViewModeControl_Pio
+--->Creating ModeControl=DefaultModeControl_Pio
+--->Creating ModeControl=SystemModeControl_Pio
+--->Creating ModeControl=iPodSimplePlayModeControl_Pio
+[255C[10D[ [32mok[0m ]
+module: SSLService... sendData: Could Not Retreive the PioTunnelingControlService
+sendData: Could Not Retreive the PioTunnelingControlService
+[255C[10D[ [32mok[0m ]
+module: PandoraService... XTEA_START before decrypt calls
+XTEA_START before decrypt cal[255C[10D[ [32mok[0m ]
+module: PandoraContentBrowserService... [255C[10D[ [32mok[0m ]
+module: IPodControlService... ls
+XTEA_START before decrypt calls
+IPodControlServiceImpl: initialize Switch A Status SDS Proxy
+IPodControlServiceImpl: initialize iPod On SwitchA SDS
+IPodAuthCoprocessorV2Impl: Got Request for getDeviceID 
+IPodAuthCoprocessorV2Impl: Got Request for getCertificateSize 
+IPodAuthCoprocessorV2Impl: Got Request for getCertificate 
+ModelName CD RECEIVER HW[255C[10D[ [32mok[0m ]
+module: IpodCBService... [255C[10D[ [32mok[0m ]
+module: iPodShell... [255C[10D[ [32mok[0m ]
+module: IpodVideoCBService... [255C[10D[ [32mok[0m ]
+module: IpodVideoContentBrowserShell... [255C[10D[ [32mok[0m ]
+module: Pio_UsbSwitchDriver...  Revision: 0!
+[255C[10D[ [32mok[0m ]
+module: Presets... [255C[10D[ [32mok[0m ]
+module: Favourites... [255C[10D[ [32mok[0m ]
+module: HistoryContentBrowser... [255C[10D[ [32mok[0m ]
+module: USBPlayDirectModule... [255C[10D[ [32mok[0m ]
+module: FSChangeTimeOutModule... [255C[10D[ [32mok[0m ]
+module: StreamStatusModule... [255C[10D[ [32mok[0m ]
+module: LltdResponder... [255C[10D[ [32mok[0m ]
+module: DeviceDiscoveryModule... [255C[10D[ [32mok[0m ]
+module: MediaContentDirectoryManager... SystemData(SystemData.cpp[238]):TRACE ERROR:initialize: system data proxy was already initialized!
+upnpCpService.cpp(286) Could NOT retrieve the Cardea Service !!!!
+SpotifyConfigWizardBrowseImpl::getTotalRegUser---------------------->() = 0
+[255C[10D[ [32mok[0m ]
+module: ContentBrowserShellCmd... [255C[10D[ [32mok[0m ]
+module: IREventHandler... Initializing ContentBrowserShellCmdIREventMapParser::init
+IRInputService_TX::createA[255C[10D[ [32mok[0m ]
+module: MenuActionHandler_Pio... bstraction()=Type =2
+[255C[10D[ [32mok[0m ]
+module: NWCONFIGEventHandler_Pio... [255C[10D[ [32mok[0m ]
+module: Pio_ParentalLockEventHandler... [255C[10D[ [32mok[0m ]
+module: Pio_FavoriteMenuEventHandler... [255C[10D[ [32mok[0m ]
+module: RDMFSPlaylistRetriever... [255C[10D[ [32mok[0m ]
+module: WPSCONFIGEventHandler_Pio... [255C[10D[ [32mok[0m ]
+module: ErrorActionHandler_Pio... [255C[10D[ [32mok[0m ]
+module: AppleShellCmd... [255C[10D[ [32mok[0m ]
+module: ConfigureiTunes... Initializing BCOAppleShellCmd[255C[10D[ [32mok[0m ]
+module: Pio_AutoChangePlayScreenServiceModule... [255C[10D[ [32mok[0m ]
+module: DelayedExeListModule... [255C[10D[ [32mok[0m ]
+module: webCfgAppModule... NapIsoStreamOutputAv::DelayedExeObserver: Successfuly added to the handler
+[255C[10D[ [32mok[0m ]
+module: webCfgNetModule... [255C[10D[ [32mok[0m ]
+module: webCfgFavModule... [255C[10D[ [32mok[0m ]
+module: webCfgSpotifyModule... [255C[10D[ [32mok[0m ]
+module: webCfgRssModule... [255C[10D[ [32mok[0m ]
+module: HavBluetooth... [255C[10D[ [32mok[0m ]
+module: PioTunnelingControlService... [255C[10D[ [32mok[0m ]
+module: PioPSMControlService... [255C[10D[ [32mok[0m ]
+module: PlayContextModeControl_Pio... [255C[10D[ [32mok[0m ]
+module: AcctMgmntActionHandler... [255C[10D[ [32mok[0m ]
+module: NetworkConnectionHandler... [255C[10D[ [32mok[0m ]
+module: Pio_SystemInfoServicePostProcess... ######## Could not retrieve TelnetTunnelingService ########
+TCP_SPI_Tunneling::openTunneling - 8102 port
+AcctMgmntActionHandler::initialize: Could NOT get Sirius Service.
+Pio_SystemInfoService(Pio_SystemInfoService.cpp[624]):TRACE ERROR:Non-PSM-Compliant model
+TCPHostControllerTunneling::process 
+** SPI ** Initialize Done
+** SPI BCO -> ** BridgeCoBoot
+IPodAuthCoprocessorV2Impl: Got Request for getDeviceID 
+IPodAuthCoprocessorV2Impl: Got Request for getCertificateSize 
+IPodAuthCoprocessorV2Impl: Got Request for getCertificate 
+SDDP Cne Update is done......
+[255C[10D[ [32mok[0m ]
+
+**************************************************
+System initialisation done.
+**************************************************
+
+Starting IPOD DETECTION and IDPS 
+ MenuContentBrowser::printvector 
+Creating the CheckUmacActive timer for first time
+Returning from wlan_wifi_reset_done because either Value: 0 pWlanDevice: 60e3fa04
+enter wpa_driver_sulu_init(614dc41c, wifi)
+Registering Reset CB
+Setting WMM to 1
+Power Tuning Disabled
+Max Rate: 108
+Max Rate: 108
+Network driver #0 status: connected.
+change net state to EIPCFG_DHCP_IN_PROGRESS
+DHCP client: got address 192.168.1.7 mask 255.255.255.0
+change net state to EIPCFG_DHCP_FINISHED, IP address: 192.168.1.7
+ MenuContentBrowser::printvector 
+BCOApple Module Available 
+IPodAuthCoprocessorV2Impl: Got Request for getCertificateSize 
+IPodAuthCoprocessorV2Impl: Got Request for getCertificate 
+SpotifyServiceInit Module Available 
+********Device Name = eDMP32MB
+
+sIPAddress = 192.168.1.7
+Version = 1.0
+ 
+ TXTRec Spotify = VERSION=1.0CPath=/goform/spotifyConfig!!!!
+
+ Error Code = 0**** 
+
+sds://>
+
