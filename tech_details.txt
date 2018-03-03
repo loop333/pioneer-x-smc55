@@ -1,0 +1,13 @@
+CPU: DM870A (ARM LSB 240 MHz)  
+ROM: 128 MB  
+RAM: 32 MB  
+OS: KnOS/JukeBlox (BridgeCo)  
+
+Open ports:  
+80 configuration  
+443 configuration  
+1024  
+1900  
+8080  
+8102 control app  
+9000 cmd (after enable) 
