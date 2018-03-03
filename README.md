@@ -6,7 +6,7 @@ http://\<ip\>/service_term_sw_nmp.asp
 select TELNET, then Apply  
 now you can power off/on and "telnet \<ip\> 9000"
 
-Memory dump:
+Memory dump:  
 sys memdump 0x00400000 0x0000fa00  
 sys memdump 0x00500000 0x0000fa00  
 sys memdump 0x60000000 0x01f00000  
