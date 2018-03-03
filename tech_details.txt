@@ -2,6 +2,7 @@ CPU: DM870A (ARM LSB 240 MHz)
 ROM: 128 MB  
 RAM: 32 MB  
 OS: KnOS/JukeBlox (BridgeCo)  
+Firmware version: s9466.4008.0141  
 
 Open ports:  
 80 configuration  
