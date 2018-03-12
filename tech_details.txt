@@ -9,7 +9,7 @@ Open ports:
 443 configuration  
 1024  
 1900
-5001 bootloader console (update bootloader, update image, update image cne, erase image, erase cne, erase bootloader, start image, update webpage)
+5001 bootloader tftp console (update bootloader, update image, update image cne, erase image, erase cne, erase bootloader, start image, update webpage, erase webpage)
 8080  
 8102 control app  
 9000 cmd (after enable) 
