@@ -1,4 +1,4 @@
-# pioneer-x-smc55 micro system
+# pioneer-x-smc55-s micro system
 Pioneer X-SMC55-S Reverse Engineering
 
 Enable telnet command line interface:  
