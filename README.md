@@ -6,7 +6,7 @@ http://\<ip\>/service_term_sw_nmp.asp
 select TELNET, then Apply  
 now you can power off/on and "telnet \<ip\> 9000"
 
-Enable tftp bootloader console:
+Enable tftp bootloader console:  
 power on device  
 http://\<ip\>/1000/firmware_update_start.asp
 press Start  
