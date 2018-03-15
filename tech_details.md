@@ -1,4 +1,4 @@
-CPU: DM870A (ARM LSB 240 MHz)  
+CPU: DM870A (ARM9 LSB core 240 MHz, security core 160 MHz, audio engine 160 Mhz)  
 ROM: 128 MB  
 RAM: 32 MB  
 OS: KnOS/JukeBlox (BridgeCo)  
