@@ -8,7 +8,7 @@ Open ports:
 80 configuration (network settinhs, firmware update)  
 443 configuration (network settings, firmware update)  
 1024  
-1900
+1900  
 5001 bootloader tftp console (update bootloader, update image, update image cne, erase image, erase cne, erase bootloader, start image)  
 8080  
 8102 control app  
