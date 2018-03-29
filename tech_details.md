@@ -1,7 +1,7 @@
 CPU: DM870A (ARM9 LSB core 240 MHz, security core 160 MHz, audio engine 160 Mhz)  
 ROM: 128 MB  
 RAM: 32 MB  
-OS: KnOS/JukeBlox (BridgeCo)  
+OS: KnOS (based on ThreadX)/JukeBlox (BridgeCo)  
 Firmware version: s9466.4008.0141  
 
 Open ports:  
